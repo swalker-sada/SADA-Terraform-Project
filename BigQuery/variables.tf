@@ -5,7 +5,7 @@
 
 #set the project name
 variable "project" { 
-  default = "Your-Project-Name-Here"
+  default = "practice-299503"
 }
 
 #region we want to use 
