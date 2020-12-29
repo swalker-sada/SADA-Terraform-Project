@@ -1,0 +1,25 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignored vscode files
+.vscode/
+
+# Ignore Any Generated JSON Files
+key.json
+i.json
+
+
+# Local .terraform directories
+**/.terraform/*
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate.*
+
+# Crash log files
+crash.log
