@@ -1,3 +1,5 @@
+
+
 module "bigquery" {
   source  = "terraform-google-modules/bigquery/google"
   #version = "4.3.0"
@@ -15,4 +17,12 @@ resource "google_bigquery_table" "bg-table" {
   
   dataset_id = "practice_dataset" 
   table_id   = "practice_table"
+
+  # Fetch and load the data that is stored in Storage Bucket
+
+
+   
+
 }
+
+
