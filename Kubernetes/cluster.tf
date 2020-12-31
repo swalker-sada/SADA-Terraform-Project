@@ -1,4 +1,6 @@
 ## GKE Cluster
+## We can't have a cluster without node pools so here
+## we have the node pool variables configured inside the module
 module "gke" {
   source  = "terraform-google-modules/kubernetes-engine/google"
  
@@ -41,3 +43,4 @@ module "gke" {
   ]
 
 }
+
