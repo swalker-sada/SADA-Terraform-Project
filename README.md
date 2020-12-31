@@ -16,3 +16,13 @@
 * Terraform Website: https://www.terraform.io
 * Terraform Google Docs: https://registry.terraform.io/providers/hashicorp/google/latest/docs
 * Terraform Google Github: https://github.com/hashicorp/terraform-provider-google
+
+###### Commands you will be frequently using
+- Usage: terraform [global options] <subcommand> [args]
+
+__Main commands:__
+ - init          Prepare your working directory for other commands
+ - validate      Check whether the configuration is valid
+ - plan          Show changes required by the current configuration
+ - apply         Create or update infrastructure
+ - destroy       Destroy previously-created infrastructure
